@@ -1965,10 +1965,17 @@ navigation.toggled ul {
     box-shadow: none;
     font-size: 32px;
     color: #ffb7c5;
-    top: -20px;
+    top: -22px;
     position: relative;
     z-index: 99;
+}
+
+ul.sub-menu {
+    padding: 0;
 } 
+ul.sub-menu li a {
+    word-wrap: normal;
+}
 main#main {
     width: 95%;
     margin-left: auto;

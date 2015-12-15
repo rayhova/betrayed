@@ -1,0 +1,28 @@
+.login h1 a{
+	width: 100%;
+	background-size: 100%;
+
+}
+
+body.login {
+    background: #fff;
+}
+
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 46px;
+    background: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 3px solid #ffb7c5;
+    border-radius: 5px;
+}
+
+body.login div#login form#loginform p.submit input#wp-submit  {
+	background: #ffb7c5;
+	box-shadow: none;
+	border: none;
+	text-decoration: 0 -1px 1px #ccc,1px 0 1px #ccc,0 1px 1px #ccc,-1px 0 1px #ccc;
+	
+}
